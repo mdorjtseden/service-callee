@@ -1,0 +1,19 @@
+{
+  "name": "service-callee",
+  "version": "1.0.0",
+  "description": "test kubernetes graceful shutdown, callee application",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
